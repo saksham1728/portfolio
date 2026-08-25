@@ -21,9 +21,7 @@ const NavbarMain = () => {
             <div className='lg:block sm:hidden'>
             <NavbarLinks closeMenu={closeMenu}/>
             </div>
-            <div className='lg:block sm:hidden'>
             <NavbarBtn/>
-            </div>
       </div>
       <div className='flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full border-[0.5px] border-orange'>
         <button className='text-2xl p-3 border border-orange rounded-full text-white'
