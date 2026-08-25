@@ -1,63 +1,66 @@
 import React from 'react'
 import SingleExperience from './SingleExperience'
-import { FaArrowRight } from "react-icons/fa";
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
 
 const experiences = [
   {
-    job:'Hackathon-Webathon',
-    company:'MHSSCE',
-    date:'August-2024',
+    job:'Software Engineer',
+    company:'HodoStays',
+    companyLink:'https://hodostays.com/',
+    date:'Dec 2025 - Jun 2026',
     responsibilities:[
-      "First Runner-Up",
-      "Received Best Individual Performer award.",
-      "Developed Hospital-Management Platform.",
-      "Built Patient panel, Admin panel and Doctor panel.",
+      "Built and maintained production features for hotel booking platform using MERN Stack",
+      "Integrated third-party platforms including Rentals United, payment gateways, and booking APIs",
+      "Developed responsive web interfaces using React/Next.js for hospitality platform",
+      "Worked on hotel/property listing, booking workflows and admin management functionality",
     ],
   },
   {
-    job:"Course Instructor",
-    company:"TeacherOn",
-    date:"May-2024 to Present",
+    job:"Full Stack Developer Intern",
+    company:"Groie",
+    companyLink:'https://groie.com/',
+    date:"Jun 2025 - Dec 2025",
     responsibilities:[
-      "Tutoring C++ and DSA to students via TeacherOn platform.",
-      "Engaged 10+ students in the first month through effective communication.",
-      "Provided personalized guidance for problem-solving and coding interview prep."
+      "Full stack developer at Groie",
+      "Worked with Go (Programming Language), Next.js and +5 skills",
+      "Developed backend and frontend features for production applications",
+      "Contributed to building scalable and maintainable solutions"
     ]
   },
   {
-    job:"Software Developer Intern",
+    job:"Back End Developer",
     company:"BearConnect",
-    date:"November-2024 to Present",
+    companyLink:'https://bearconnect.io/',
+    date:"Nov 2024 - Jun 2025",
     responsibilities:[
-      "Contributed to backend development using Express.js.",
-      "Explored Redis-based job queues",
-      "Explored CI/CD pipeline concepts, with the team, gaining an understanding of deployment.",
+      "Backend developer at BearConnect",
+      "Worked with Back-End Web Development, Node.js and +5 skills",
+      "Built and improved backend APIs and application workflows",
+      "Explored CI/CD pipeline concepts and deployment processes"
+    ]
+  },
+  {
+    job:"Full Stack Developer",
+    company:"Eduknit",
+    companyLink:'https://eduknit.in/',
+    date:"June 2026 - Present",
+    responsibilities:[
+      "Built core features of EdTech platform with Learn & Earn model",
+      "Developed course creation, management and student learning workflows",
+      "Built coding practice modules, quiz and assessment functionality",
+      "Implemented AI-assisted functionality for course creation workflows",
     ]
   }
 ]
 
 const AllExperience = () => {
   return (
-    <div className='flex md:flex-row sm:flex-col items-center justify-between'>
+    <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-8 mt-12'>
       {
         experiences.map((experience,index)=>{
           return (
-          <>
-            <SingleExperience key={index} experience={experience}/>;
-            {index<2 ? (
-              <motion.div
-                                        variants={fadeIn('right',0.2)} 
-                                        initial='hidden' 
-                                        whileInView='show' 
-                                        viewport={{once:false,amount:0}}
-              >
-              <FaArrowRight className='text-6xl text-orange lg:block sm:hidden'/>
-              </motion.div>
-              ):("")}
-              
-          </>
+            <SingleExperience key={index} experience={experience}/>
           )
         })
       }

@@ -5,25 +5,32 @@ import {motion} from 'framer-motion'
 import { fadeIn } from '../../framerMotion/variants'
 
 const projects=[{
-    name:'Hospital Management Platform',
+    name:'How About Coffee - Cafe Website',
     year:'2024',
     align:'right',
-    image:'../../website-img1.PNG',
-    link:"https://github.com/saksham1728/Hospital-Management-Platform",
+    image:'../../how-about-coffee.png',
+    link:"https://how-about-coffee-bzi399op7-sakshams-projects-e8f64401.vercel.app/",
 },
 {
-    name:'Auction Platform',
+    name:'Fiddle River - Seafood Restaurant',
     year:'2024',
     align:'left',
-    image:'../../website-img2.png',
-    link:"https://auction-platform-28.netlify.app/"
+    image:'../../fiddle-river.png',
+    link:"https://fiddle-river-restaurant.onrender.com/"
 },
 {
-    name:'AI Engineering tools portal',
+    name:'HodoStays - Hotel Booking Platform',
     year:'2025',
     align:'right',
-    image:'../../website-3.jpg',
-    link:'https://online-learning-platform-ashy.vercel.app/'
+    image:'../../hodostays.png',
+    link:'https://www.hodostays.com/'
+},
+{
+    name:'Sanskar Spoken English Institute',
+    year:'2024',
+    align:'left',
+    image:'../../sanskar-spoken-english.png',
+    link:'https://sanskarspokenenglish.com/'
 }
 ]
 
