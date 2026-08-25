@@ -6,49 +6,49 @@ import { fadeIn } from '../../framerMotion/variants'
 
 const projects=[{
     name:'How About Coffee - Cafe Website',
-    year:'2024',
+    year:'2026',
     align:'right',
     image:'../../how-about-coffee.png',
     link:"https://how-about-coffee-bzi399op7-sakshams-projects-e8f64401.vercel.app/",
 },
 {
     name:'Fiddle River - Seafood Restaurant',
-    year:'2024',
+    year:'2026',
     align:'left',
     image:'../../fiddle-river.png',
     link:"https://fiddle-river-restaurant.onrender.com/"
 },
 {
     name:'HodoStays - Hotel Booking Platform',
-    year:'2025',
+    year:'2026',
     align:'right',
     image:'../../hodostays.png',
     link:'https://www.hodostays.com/'
 },
 {
     name:'Sanskar Spoken English Institute',
-    year:'2024',
+    year:'2026',
     align:'left',
     image:'../../sanskar-spoken-english.png',
     link:'https://sanskarspokenenglish.com/'
 },
 {
     name:'Hospital Management Platform',
-    year:'2024',
+    year:'2026',
     align:'right',
     image:'../../website-img1.PNG',
     link:"https://github.com/saksham1728/Hospital-Management-Platform",
 },
 {
     name:'Auction Platform',
-    year:'2024',
+    year:'2026',
     align:'left',
     image:'../../website-img2.png',
     link:"https://auction-platform-28.netlify.app/"
 },
 {
     name:'AI Engineering Tools Portal',
-    year:'2025',
+    year:'2026',
     align:'right',
     image:'../../website-3.jpg',
     link:'https://online-learning-platform-ashy.vercel.app/'
