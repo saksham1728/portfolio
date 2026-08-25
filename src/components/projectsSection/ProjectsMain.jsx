@@ -31,6 +31,27 @@ const projects=[{
     align:'left',
     image:'../../sanskar-spoken-english.png',
     link:'https://sanskarspokenenglish.com/'
+},
+{
+    name:'Hospital Management Platform',
+    year:'2024',
+    align:'right',
+    image:'../../website-img1.PNG',
+    link:"https://github.com/saksham1728/Hospital-Management-Platform",
+},
+{
+    name:'Auction Platform',
+    year:'2024',
+    align:'left',
+    image:'../../website-img2.png',
+    link:"https://auction-platform-28.netlify.app/"
+},
+{
+    name:'AI Engineering Tools Portal',
+    year:'2025',
+    align:'right',
+    image:'../../website-3.jpg',
+    link:'https://online-learning-platform-ashy.vercel.app/'
 }
 ]
 
